@@ -1,0 +1,104 @@
+h1{
+	color: #800000;
+	font-family: "Open Sans"; 
+	position: absolute;
+	font-size: 30px; 
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav ul li{
+	color: white;
+	padding: 16px;
+	font-size: 25px;
+	background-color:#800000;
+	display: inline;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+ 	border: 3px;
+}
+
+.dropButton {
+	background-color:#800000;
+	color: white;
+	padding: 10px;
+	font-size: 25px;
+	border: none;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.dropDown {
+	position: relative;
+	display: inline-block;
+	color: black;
+}
+
+.dropDown-cont {
+	display: none;
+	position: absolute;
+	background-color:#800000;
+	min-width: 120px;
+	font-size:19px;
+	z-index:1;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}
+
+.dropDown-cont a{
+	color:white;
+	padding: 10px 14px;
+	text-decoration: underline;
+	display: block;
+}
+
+.dropDown:hover .dropDown-cont {display: block;}
+
+.dropDown-cont a:hover {background-color: #ff4d4d;}
+
+.buttonTime{
+	background-color:#800000;
+	color: #ff9933;
+	padding: 10px;
+	font-size: 15px;
+}
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: white;
+}
+
+.logo {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.imgMeal{
+	position: relative;
+	text-align: center;
+}
+
+fieldset{
+	background-color:#ffcc99;
+}
+
+legend {
+    background-color: #800000;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+a.meal{
+	color:#990000;
+	font-size: 50px;
+}
+
+p{
+	color:#800000;
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+ 		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<title>DeliciousCooking.bg</title>
+	</head>
+
+	<body background="pictures/background.jpg">
+		<div class="logo">
+				<img src="pictures/label.jpg" alt="logos" width="350" height = "100">
+		<h1>Delicious Cooking</h1></div>
+		<hr>
+		<nav>
+			<ul>
+				<li><a href="index.html">Начало</a></li>
+				<li><div class="dropDown">
+					<button class="dropButton">Рецепти</button>
+					<div class="dropDown-cont">
+						<a href="bulgarian.html">Българска кухня</a>
+						<a href="asian.html">Азиатска кухня</a>
+						<a href="italian.html">Италинска кухня</a></div></div></li>
+				<li>Статии</li>
+				<li><a href="profile.html">Профил</a></li>
+				<li><a href="contacts.html">Контакти</a></li>
+			</ul></nav>
+		<hr>
+		<fieldset>
+		<h2>Тук можете да добавите вашата статия: </h2>
+		<form>
+		<fieldset>
+				<legend>Рецепта</legend>
+				<label for="name">Заглавие</label>
+				<input type:"text" placeholder="Име" name="name" id="name">
+				<br>
+				<legend>Кухня</legend>
+				<select name="Кухня">
+					<option value="bulgarian">Българска</option>
+					<option value="asian">Азиатска</option>
+					<option value="italian">Италианска</option>
+				</select> 
+				<br>
+				<label for="product">Необходими продукти</label>
+				<br>
+				<textarea name="product" placeholder="Необходими продукти" rows="4" cols="50"></textarea>
+				<br>
+				<label for="cooking">Начин на приготвяне</label>
+				<br>
+				<textarea name="cooking" placeholder="Начин на приготвяне" rows="4" cols="50"></textarea>
+				<br>
+ 				<button type="submit" value="Submit">Submit</button>
+				<button type="reset">Reset</button>
+		</form>
+		</fieldset>
+		<hr>
+		<sup>&copy;</sup> Made by Krasy and Elly
+		</fieldset>
+	</body>
+
+</html>

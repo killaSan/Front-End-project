@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+ 		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<title>DeliciousCooking.bg</title>
+	</head>
+
+	<body background="pictures/background.jpg">
+		<div class="logo">
+				<center><img src="pictures/label.jpg" alt="logos" width="350" height = "100"></center>
+		<h1>Delicious Cooking</h1></div>
+		<hr>
+			<nav>
+				<ul>
+					<li><a href="index.html">Начало</a></li>
+					<li><div class="dropDown">
+						<button class="dropButton">Рецепти</button>
+						<div class="dropDown-cont">
+							<a href="bulgarian.html">Българска кухня</a>
+							<a href="asian.html">Азиатска кухня</a>
+							<a href="italian.html">Италинска кухня</a></div></div></li>
+					<li><a href="article.html">Статии</a></li>
+					<li>Профил</li>
+					<li><a href="contacts.html">Контакти</a></li>
+				</ul></nav>
+		<hr>
+		<fieldset>
+		<form>
+		<fieldset>
+				<legend>Регистрация</legend>
+				<label for="name">Име</label>
+				<input type="text" placeholder="Име" name="name" id="name">
+				<br>
+				<label for="password">Парола</label>
+				<input type="password" placeholder="Парола" name="password" id="password">
+				<br>
+				<label for="email">E-mail</label>
+				<input type="text" placeholder="E-mail" name="email" id="email">
+				<br>
+				<h4>Желаете ли да получавате съобщения?</h4>
+				<input type="radio" name="yes" value="yes">
+				<label for="yes">Да</label>
+				<br>
+				<input type="radio" name="no" value="no">
+				<label for="no">Не</label>
+				<br>
+				<p id="demo"></p>
+ 				<button type="submit" value="Submit" onClick="checkUsername()">Submit</button>
+				<button type="reset" value="Reset"onClick="loadXML()">Reset</button>
+		</fieldset>
+		</form>
+		<hr>
+		<sup>&copy;</sup> Made by Krasy and Elly</fieldset>
+	</body>
+<script type = "text/Javascript" src = "scripts/user.js"></script> 
+</html>
